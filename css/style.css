@@ -1,0 +1,50 @@
+body{
+    background-color: #0d0d0d;
+    color:#f9f6f6 !important;
+    overflow: hidden;
+}
+
+.logo{
+width: 50px;
+}
+i,ul{
+    cursor: pointer;
+}
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition:.5s;
+    background-color: #f9f6f6ca;
+}
+.meal:hover .meal-layer{
+    top: 0;
+}
+.side-nav-menu{
+    z-index: 99;
+}
+.nav-tab{
+    background-color:#0d0d0d;
+}
+.fa-house-laptop{
+    color: #be7373ca;
+    
+}
+.cursor-pointer{
+
+    cursor:pointer;
+}
+.alert{
+    width: fit-content ;
+}
+
+.loadeng-screen{
+    z-index: 999;
+    display: flex;
+}
+.inner-loading-screan{
+    position: absolute;
+    z-index: 9;
+    background-color: #0d0d0d;
+    display: flex;
+}
